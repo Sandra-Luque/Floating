@@ -1,0 +1,26 @@
+/* Inserta tu CSS aqui */
+.caja{
+	height: 100px;
+	width: 25%;
+	float: right;
+}
+.contenedor{
+	border:2px solid #999;
+	
+}
+.contenedor1{
+	background: #ffff00;
+}
+.contenedor2{
+	background: #3a81ba;
+}
+.contenedor3{
+	background:#ed2251; 
+}
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear:both;
+}
